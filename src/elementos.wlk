@@ -9,13 +9,20 @@ object barba {
 }
 
 object mascaraDracula {
-	var tamanio = 2
+	const tamanio = 2
 
+	method nivelSusto() {
+		return 2 * tamanio
+	}
 
 }
 
 object mascaraFrankenstein {
-	
+	const tamanio = 22
+
+	method nivelSusto() {
+		return 2 * tamanio
+	}
 }
 
 object mascaraPolitico {
