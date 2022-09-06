@@ -32,7 +32,7 @@ object macaria {
 	}
 	
 	method recibirCaramelos(cant){
-		caramelos += (cant * 75).div(100)
+		caramelos += cant.div(4/3)
 	}
 	
 	method caramelos(){
@@ -115,7 +115,7 @@ object pedro {
 	}
 	
 	method recibirCaramelos(cant){
-		caramelos += (cant * 25).div(100)
+		caramelos += cant.div(4)
 	}
 	
 	method caramelos(){

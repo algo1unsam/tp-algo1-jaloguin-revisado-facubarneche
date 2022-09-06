@@ -16,13 +16,7 @@ object mirca {
 	}
 	
 	method caramelosAEntregar(chico){
-		const seAsustaONo = chico.capacidadSusto() - tolerancia
-		
-		if ( seAsustaONo > 0){
-			return seAsustaONo
-		}else{
-			return 0
-		}
+		return (chico.capacidadSusto() - tolerancia).max(0)
 	}
 
 }
