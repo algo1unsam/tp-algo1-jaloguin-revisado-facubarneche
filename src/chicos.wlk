@@ -39,6 +39,11 @@ object macaria {
 		return caramelos
 	}
 	
+	method desgastarDisfraz(){
+		disfraces.forEach({disfraz => disfraz.aumentarLongitud()})
+		disfraces.forEach({disfraz => disfraz.usar()})
+	}
+	
 }
 
 object pancracio {
@@ -73,6 +78,11 @@ object pancracio {
 	
 	method caramelos(){
 		return caramelos
+	}
+	
+	method desgastarDisfraz(){
+		disfraces.forEach({disfraz => disfraz.aumentarLongitud()})
+		disfraces.forEach({disfraz => disfraz.usar()})
 	}
 	
 }
@@ -110,6 +120,11 @@ object pedro {
 	
 	method caramelos(){
 		return caramelos
+	}
+	
+	method desgastarDisfraz(){
+		disfraces.forEach({disfraz => disfraz.aumentarLongitud()})
+		disfraces.forEach({disfraz => disfraz.usar()})
 	}
 }
 

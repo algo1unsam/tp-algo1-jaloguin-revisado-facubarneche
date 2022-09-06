@@ -11,7 +11,7 @@ object mirca {
 	
 	method serAsustadoPor(chico){
 		chico.recibirCaramelos(self.caramelosAEntregar(chico))
-		
+		chico.desgastarDisfraz()
 		tolerancia -= 1	
 	}
 	
